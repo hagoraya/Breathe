@@ -1,10 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+#horizontal_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#top_container{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#vertical_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#sideText {
+    margin: 3rem;
+}
+
 .border-animation {
     height: 200px;
-  width: 200px;
-  position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+     width: 200px;
+    
+   background: dimgray;  
+
   
   box-sizing: border-box;
   background-image: linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px), linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px);
