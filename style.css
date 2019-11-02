@@ -9,7 +9,7 @@
   
   box-sizing: border-box;
   background-image: linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px), linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px);
-  background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+  background-size: 5% 7px, 7px 5%, 5% 7px, 7px 5%;
   background-repeat: no-repeat;
   background-position: 0px 0px, right -50px, 200px bottom, 0px 200px;
   animation: border 5s linear infinite;
@@ -23,7 +23,7 @@
         background-position: 200px 0px, right 0px, 200px bottom, 0px 200px;
       }
       45% {
-        background-position: 200px 0px, right 150px, 200px bottom, 0px 200px;
+        background-position: 200px 0px, right 200px, 200px bottom, 0px 200px;
       }
       50% {
         background-position: 200px 0px, right 200px, 150px bottom, 0px 200px;
@@ -38,9 +38,9 @@
         background-position: 200px 0px, right 200px, -50px bottom, 0px 0px;
       }
       95.1% {
-        background-position: -50px 0px, right 200px, -50px bottom, 0px 0px;
+        background-position: -150px 0px, right 200px, -50px bottom, 0px 0px;
       }
       100% {
-        background-position: 0px 0px, right 200px, -50px bottom, 0px -50px;
+        background-position: 1px 0px, right 2000px, -50px bottom, 0px -50px;
       }
 }
