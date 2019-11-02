@@ -25,15 +25,30 @@ body, html {
     
 }
 
+#imageDiv {
+    display: flex;
+    margin-top: 10px;
+}
+
+#image {
+    max-width: 90%;
+    max-height: 90%;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+
 #sideText {
     margin: 3rem;
 }
 
 .border-animation {
     height: 200px;
-     width: 200px;
-    
-   background: dimgray;  
+     width: 200px;    
+   background:#48A1AF;  
 
   
   box-sizing: border-box;
