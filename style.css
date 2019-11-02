@@ -43,6 +43,9 @@ body, html {
 
 #sideText {
     margin: 3rem;
+    color: #636363;
+    font-family: Arial;
+    letter-spacing: 2px;
 }
 
 .border-animation {
@@ -52,11 +55,11 @@ body, html {
 
   
   box-sizing: border-box;
-  background-image: linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px), linear-gradient(to right, red 50px, transparent 50px), linear-gradient(to bottom, red 50px, transparent 50px);
+  background-image: linear-gradient(to right, rgb(10, 10, 10) 50px, transparent 50px), linear-gradient(to bottom, rgb(10, 10, 10) 50px, transparent 50px), linear-gradient(to right, rgb(10, 10, 10) 50px, transparent 50px), linear-gradient(to bottom, rgb(10, 10, 10) 50px, transparent 50px);
   background-size: 5% 7px, 7px 5%, 5% 7px, 7px 5%;
   background-repeat: no-repeat;
   background-position: 0px 0px, right -50px, 200px bottom, 0px 200px;
-  animation: border 5s linear infinite;
+  animation: border 12s linear infinite;
 }
 
 @keyframes border {
